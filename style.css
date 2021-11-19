@@ -1,0 +1,146 @@
+
+#navbar-main-box{
+    width: 90%;
+    border-bottom: 1px solid black ;
+    /* box-shadow: 1px 4px 21px 0px rgba(0,0,0,0.52); */
+
+}
+.navbar-brand{
+    font-weight: bolder;
+}
+.nav-link{
+    font-weight: bolder;
+}
+.sticky{
+    margin-top: 60px;
+}
+/* #about-image,#about-text{
+    border:2px solid black;
+    
+} */
+#about-text{
+    text-align: center;
+}
+#about-box img {
+    border: 2px solid black;
+}
+
+
+/* Project section design starts */
+
+.projects h1{
+    text-align: right;
+    color: #678784;
+    
+}
+
+.projects hr{
+ width: 40%;
+
+ position: absolute;
+ right: 10px;
+}
+.projects .card .btn {
+
+    background-color: #17a2b8;
+    
+    border-radius: 20px;
+    color: white;
+
+    /* float: right;  */
+}
+
+/* Project section design ends */
+
+
+
+.social-media-box{
+    
+    width: 70%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    padding: 20px;
+}
+.img-box{
+    
+    width: 45%;
+}
+.social-buttons-box{
+    
+    text-align: center;
+}
+.social-buttons-box p{
+    text-align: center;
+}
+.social-buttons-box .btn{
+    margin-left: 10px;
+}
+.social-media-box hr{
+    width: 70%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-outline-info{
+    color: #17a2b8;
+    border-color:#17a2b8 ;
+}
+.btn:hover{
+    color: #fff;
+}
+
+
+
+/* footer design starts */
+
+.footer{
+    text-align: center;
+    color: black;
+    padding: 10px; ;
+}
+
+
+
+/* footer design ends */
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    .social-media-box{
+    
+        width: 80% !important;
+        text-align: center;
+    }
+    .social-media-box .btn{
+        margin-top: 10px; 
+    }
+    .social-media-box img {
+        display: none;
+        
+         
+    }
+
+    .social-media-box .img-box {
+        width: 100%;
+    }
+    
+
+    /* Project section design starts */
+
+    .projects hr{
+        margin-bottom: 20px;
+    }
+    .projects .card {
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+/* Project section design ends */
+
+    
+        
+        
+}
