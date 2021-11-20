@@ -6,7 +6,9 @@
 
 }
 .navbar-brand{
-    font-weight: bolder;
+    font-size: 1.5rem;
+    font-family: 'Questrial', sans-serif;
+    color: rgba(0,0,0,.9);
 }
 .nav-link{
     font-weight: bolder;
@@ -14,13 +16,19 @@
 .sticky{
     margin-top: 60px;
 }
-/* #about-image,#about-text{
-    border:2px solid black;
-    
-} */
+.about-box{
+    width: 80%;
+}
 #about-text{
     text-align: center;
 }
+#about-text a{
+    color: black;
+    text-decoration: underline;
+
+}
+
+
 #about-box img {
     border: 2px solid black;
 }
@@ -48,6 +56,9 @@
     color: white;
 
     /* float: right;  */
+}
+.projects .card{
+    border: 1px solid rgba(0,0,0,.125);
 }
 
 /* Project section design ends */
@@ -138,6 +149,14 @@
         margin-top: 20px;
 
     }
+    .about-box{
+        width: 100%;
+    }
+    
+    .about-box img {
+        width: 100% !important;
+    }
+    
 /* Project section design ends */
 
     
